@@ -1,0 +1,18 @@
+header .btn {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+header .btn.warning {
+  background-color: yellow;
+}
+header .btn.warning:hover {
+  background-color: rgb(255, 255, 231);
+}
+header .btn.info {
+  background-color: rgb(97, 97, 209);
+}
+header .btn.info:hover {
+  background-color: rgb(163, 186, 249);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+header {
+    .btn {
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 8px;
+        &.warning {
+            background-color: yellow;
+            &:hover {
+                background-color: rgb(255, 255, 231);
+            }
+        }
+        &.info {
+            background-color: rgb(97, 97, 209);
+            &:hover {
+                background-color: rgb(163, 186, 249);
+            }
+        }
+    }
+}
